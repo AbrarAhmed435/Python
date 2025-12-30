@@ -41,4 +41,9 @@ class BinaryTee:
         self.inorder(node.left)
         print(node.data,end=" ")
         self.inorder(node.right)
-        
+
+
+    def height(self,node):
+        if not node:
+            return 0
+        return 1+max(self.height(node.left),self.height(node.right))
