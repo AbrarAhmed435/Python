@@ -50,9 +50,13 @@ print(arr)
 arr[1:1]=[100,200,300]
 print(arr)
 
-arr[1:4]=[100,222,333,555]
+ab=[101,222,333,555,99]
+arr[1:4]=ab
 print(arr)
 
-evens = [x for x in range(10) if x % 2 == 0]
+# arr[3:4]=[5,6]
+# print(arr)
 
-print(evens)
+# evens = [x for x in range(10) if x % 2 == 0]
+
+# print(evens)

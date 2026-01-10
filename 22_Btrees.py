@@ -82,7 +82,7 @@ bt = BTree(m=4)
 keys = [10, 20, 5, 6] # 12, 30, 7, 17]
 
 for k in keys:
-    print(f"\n=== Inserting {k} ===")
+    print(f" Inserting {k}")
     bt.insert(k)
 
 print(bt.root.keys)
